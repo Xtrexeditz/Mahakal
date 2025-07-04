@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XTREX - XTREAM EXPRESS 3D Booking</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>XTREX Bus Booking</h1>
+      <p>Book Your Seat on XTREAM EXPRESS</p>
+      <a href="#buses" class="btn">Explore Buses</a>
+    </div>
+  </header>
+
+  <section class="buses" id="buses">
+    <h2>Our 3D Bus Fleet</h2>
+    <div class="bus-grid">
+      <div class="bus-card" data-tilt>
+        <img src="bus1.jpg" alt="XTREAM EXPRESS 1">
+        <h3>XTREAM EXPRESS 1</h3>
+        <p>Luxury • AC • ₹550</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+      <div class="bus-card" data-tilt>
+        <img src="bus2.jpg" alt="XTREAM EXPRESS 2">
+        <h3>XTREAM EXPRESS 2</h3>
+        <p>Luxury • AC • ₹600</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+      <div class="bus-card" data-tilt>
+        <img src="bus3.jpg" alt="XTREAM EXPRESS 3">
+        <h3>XTREAM EXPRESS 3</h3>
+        <p>Luxury • AC • ₹650</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+      <div class="bus-card" data-tilt>
+        <img src="bus4.jpg" alt="XTREAM EXPRESS 4">
+        <h3>XTREAM EXPRESS 4</h3>
+        <p>Luxury • AC • ₹700</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+      <div class="bus-card" data-tilt>
+        <img src="bus5.jpg" alt="XTREAM EXPRESS 5">
+        <h3>XTREAM EXPRESS 5</h3>
+        <p>Luxury • AC • ₹750</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+      <div class="bus-card" data-tilt>
+        <img src="bus6.jpg" alt="XTREAM EXPRESS 6">
+        <h3>XTREAM EXPRESS 6</h3>
+        <p>Luxury • AC • ₹800</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking">
+    <h2>Book Your Bus</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <select required>
+        <option selected disabled>Select Bus</option>
+        <option>XTREAM EXPRESS 1</option>
+        <option>XTREAM EXPRESS 2</option>
+        <option>XTREAM EXPRESS 3</option>
+        <option>XTREAM EXPRESS 4</option>
+        <option>XTREAM EXPRESS 5</option>
+        <option>XTREAM EXPRESS 6</option>
+      </select>
+      <input type="date" required>
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 XTREX. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+</html>
